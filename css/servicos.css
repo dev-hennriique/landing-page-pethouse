@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2? family= IBM+Plex+Serif:wght@400;500 & family= Montserrat:wght@100 & family= Sniglet & display=swap' );
+
+/* ESTILO DE SERVIÇOS */
+.content {
+    margin-bottom: 48px;
+}
+
+/* conteúdo serviço */
+.content-service {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Conteúdo serviço escrito */
+.content-service-written {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: #fbf7ef;
+    border: 3px solid #000000;
+    border-radius: 20px;
+    box-shadow: 10px 10px 9px #00000040;
+    width: 550px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Conteúdo serviço escrito título */
+.content-service-written-title {
+    font-family: 'Sniglet', cursive;
+    font-size: 45px;
+    color: #000000;
+}
+
+/* Conteúdo serviço escrito subtítulo */
+.content-service-written-caption {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.content-service-written-legend {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Conteúdo serviço img */
+.content-service-img {
+    height: 430px;
+}
+
+/* Cartões serviço */
+
+/* Pai */
+.cards {
+    display: flex;
+    flex-direction: row;
+    /*align-items: center;*/
+    padding: 32px;
+}
+
+/* CONTEÚDO DOS CARDS */
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    max-width: 468px;
+    margin-left: 32px;
+}
+
+/* Ajustando lado esquerdo do primeiro item */
+.card:first-child {
+    margin-left: 0;
+}
+
+/* Pai */
+.icon {
+    width: 64px;
+    height: 64px;
+}
+
+.card h3 {
+    font-size: 100%;
+    margin: 25px 0;
+}
+
+.card span {
+    font-weight: 400;
+    max-width: 240px;
+    font-size: 85%;
+    margin-bottom: 16px;
+    line-height: 20px;
+
+}
+
+/* Filho */
+/* DEFINIÇÕES DOS CARDS */
+.card img {
+    width: 100%;
+}
+
+.card.taxi {
+    box-shadow: 20px 20px 50px -30px #52524F;
+}
+.card.banho {
+    box-shadow: 20px 20px 50px -30px #52524F;
+}
+.card.veterinario {
+    box-shadow: 20px 20px 50px -30px #52524F;
+}
+.card.medicamentos {
+    box-shadow: 20px 20px 50px -30px #52524F;
+}
+.card.racoes {
+    box-shadow: 20px 20px 50px -30px #52524F;
+}
+.card.petshop {
+    box-shadow: 20px 20px 50px -30px #52524F;
+}
+
+/* RESPONSIVIDADE DOS CARDS */
+
+@media screen and (max-width: 720px) {
+    .cards {
+        flex-direction: column;
+    }
+
+    .card {
+        margin-left: 0;
+        margin-bottom: 32px;
+
+    }
+
+    .card:last-child {
+        margin-bottom: 0;
+    }
+}
+
+

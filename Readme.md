@@ -1,0 +1,1 @@
+Projeto desenvolvido por Pedro Soares - dev-hennriique inspirada em uma loja física, buscando melhorar a distribuição de informações ao cliente e facilitar o acesso as mesmas.

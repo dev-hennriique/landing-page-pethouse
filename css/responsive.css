@@ -1,0 +1,269 @@
+/* small laptops  a partir de 1100px*/
+@media (max-width: 1100px) {
+
+    .cabecalho {
+        height: 45px;
+    }
+
+    .cabecalho-img {
+        height: 50px;
+    }
+
+    .conteudo-principal {
+        margin-top: 0px;
+    }
+
+    .conteudo-principal-escrito-titulo {
+        font-size: 45px;
+    }
+    .conteudo-principal-escrito {
+        margin-left: 2rem;
+    }
+
+    .conteudo-principal-img {
+        height: 400px;
+    }
+
+    .cards h3 {
+        font-size: 20px;
+    }
+
+
+    .card span {
+        font-size: 15px;
+    }
+}
+
+/* tablet 900px */
+@media (max-width: 900px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .cabecalho {
+        height: 45px;
+    }
+
+    .cabecalho-img {
+        height: 50px;
+    }
+
+    .conteudo-principal-escrito-titulo {
+        font-size: 35px;
+    }
+
+    .conteudo-principal-escrito {
+        margin-left: 180px;
+        gap: 20px;
+        font-size: 10px;
+    }
+
+    .conteudo-principal-escrito-subtitulo {
+        font-size: 18px;
+    }
+
+    .conteudo-principal-img {
+        height: 360px;
+        margin-right: 170px;
+    }
+
+    .content-service-written {
+        margin-left: 20px;
+        gap: 5px;
+        max-width: 360px;
+    }
+
+    .content-service-written-legend {
+        font-size: 13px;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .content-service-img {
+        height: 350px;
+        margin-right: 20px;
+        margin-left: 10px;
+    }
+
+    .cards {
+        flex-direction: column;
+        width: 100%;
+        padding: 0 2rem;
+        margin: 0 auto;
+    }
+
+    .card {
+        align-self: center;
+        width: 300px;
+        max-width: 100%;
+        max-height: 350px;
+        margin-bottom: 40px;
+        margin-left: 0;
+    }
+
+    .card span {
+        font-size: px;
+    }
+
+    .content-contact {
+        margin-top: 20px;
+    }
+
+    .content-contact-written {
+        margin-left: 20px;
+        max-width: 380px;
+        
+    }
+
+    .content-contact-img {
+        height: 360px;
+    }
+}
+
+/* celular 576px */
+@media (max-width: 576px) {
+
+    .cabecalho {
+        height: 45px;
+    }
+
+    .cabecalho-img {
+        height: 40px;
+    }
+
+    .cabecalho-menu {
+        gap: 20px;
+    }
+
+    .menu-item {
+        font-size: 17px;
+    }
+
+    .conteudo-principal {
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+    }
+
+    .conteudo-principal-escrito {
+        width: 350px;
+        margin: 30px auto;
+        padding: 10px;
+    }
+
+    .conteudo-principal-escrito-botao  span {
+        font-size: 25px;
+    }
+
+    .conteudo-principal-escrito-botao i {
+        font-size: 25px;
+        padding: 5px;
+    }
+    
+    .conteudo-principal-img {
+        height: 300px;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+
+    .conteudo-secundario-paragrafo {
+        width: 350px;
+        margin: 10px auto;
+    }
+
+    .content-service {
+        display: flex;
+        flex-direction: column;
+        margin-top: -20px;
+    }
+
+    .content-service-written-title {
+        margin-top: 20px;
+    }
+
+    .content-service-written {
+        margin: 0 auto;
+    }
+
+    .content-service-img {
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 340px;
+    }
+
+    .cards {
+        margin-top: -20px;
+    }
+
+    .content-contact {
+        display: flex;
+        flex-direction: column;
+        margin: 60px auto;
+    }
+
+    .content-contact-written {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .content-contact-written-title {
+        margin-top: 20px;
+        font-size: 45px;
+    }
+
+    .content-contact-written-caption {
+        font-size: 85%;
+    }
+
+    .content-contact-img {
+        margin: 0 auto;
+        margin-top: 40px;
+        height: 300px;
+    }
+
+    .content-second-title {
+        padding-top: 15px;
+        font-size: 40px;
+    }
+
+    .cards_2 {
+        margin: 0 auto;
+        padding: 0 0 30px;
+        width: 100%;
+    }
+
+    .card_2_title {
+        font-size: 100%;
+    } 
+
+    .card_2_descripition button {
+        width: 180px;
+    }
+
+    .conteudo-principal-escrito-botao {
+        font-size: 90%;
+        align-items: center;
+    }
+
+    .botao-2 span {
+      font-size: 15px;
+    }
+
+    .img-btn {
+        margin-left: -8px;
+    }
+
+    .card_2_title {
+        font-size: 90%;
+    }
+
+    .rodape {
+        margin-top: 60px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}

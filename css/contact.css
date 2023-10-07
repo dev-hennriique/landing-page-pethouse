@@ -1,0 +1,119 @@
+/* CONTEÚDO FORMAS DE CONTATO  */
+/* CONTAINER CONTATO */
+.content-dois {
+    margin-bottom: 48px;
+}
+
+.content-contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+/* TEXTO CONTATO */
+.content-contact-written {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #FBF8F1;
+    border: 3px solid #000000;
+    border-radius: 20px;
+    box-shadow: 10px 10px 9px #00000040;
+    width: 550px;
+    padding: 20px;
+    text-align: center;
+}
+
+.content-contact-written-title {
+    font-family: 'Sniglet', cursive;
+    font-size: 45px;
+    color: #000000;
+}
+
+.content-contact-written-caption {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+}
+/* IMAGEM */
+.content-contact-img {
+    height: 430px;
+    margin-top: 50px;
+}
+
+.content-second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+/* ESPAÇAMENTO DE INFORMAÇÕES */
+.contact {
+    padding-bottom: 35px;
+    gap: 40px;
+}
+/* TÍTULO DO NOVO CONTEÚDO */
+.content-second-title {
+    border-top: 2px solid #ffffff;
+    padding-top: 48px;
+    font-family: 'Sniglet', cursive;
+    font-size: 60px;
+    color: #ffffff;
+    text-shadow: 2px 3px 3px #343031;
+}
+/* CONTAINER DO BLOCO DE CADA LOJA */
+.cards_2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    width: auto;
+    color: #000000;
+    border-radius: 30px;
+    padding-bottom: 80px;
+    
+}
+/* INFORMAÇÕES DENTRO DO BLOCO */
+.card_2 {
+    width: 450px;
+    border-radius: 30px;
+    display: grid;
+    place-content: center;
+}
+
+.card_2_descripition {
+    padding: 20px;
+    height: 100px;
+}
+
+.card_2_content {
+    background-color: #FBFEED;
+    width: auto;
+    border-radius: 10px;
+    border-top: 20;
+    border: 3px solid #343031;;
+}
+
+.card_2_title {
+    font-size: 23px;
+    text-align: center;
+    font-family: 'Sniglet', cursive;
+    margin-top: 20px;
+}
+
+.card_2_descripition button {
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+}
+
+.botao-2 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+    line-height: 60px;
+}
+
