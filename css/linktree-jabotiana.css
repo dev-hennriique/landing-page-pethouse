@@ -175,6 +175,7 @@ section {
 
     .button_links {
         margin-top: -10px;
+        
     }
 
     section {
@@ -185,6 +186,44 @@ section {
     .btn-footer {
         margin: 0 auto;
         text-align: center;
-        font-size: 400%;
+        font-size: 40px;
+    }
+}
+
+/* ccelular m */
+@media (max-width: 400px) {
+    header h1 {
+        font-size: 30px;
+    }
+
+    header img {
+        height: 90px;
+        margin-top: 100px;
+    }
+
+    p {
+        margin-bottom: -10px;
+    }
+
+    .button_links {
+        margin-top: -10px;
+        
+    }
+
+    section {
+        margin-top: -5px;
+        margin-bottom: 20px;
+    }
+
+    .btn-footer {
+        margin: 0 auto;
+        text-align: center;
+        font-size: 40px;
+
+    }
+
+    .rodape-paragrafo {
+        margin-bottom: 10px;
+        font-size: 12px;
     }
 }
