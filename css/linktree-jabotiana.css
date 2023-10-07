@@ -150,6 +150,11 @@ section {
 
 /* celular */
 @media (max-width: 576px) {
+
+    header h1 {
+        font-size: 40px;
+    }
+
     header img {
         height: 100px;
         margin-top: 10px;
