@@ -187,6 +187,16 @@ section {
         text-align: center;
         font-size: 400%;
     }
+
+    .rodape {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .rodape-paragrafo {
+        font-size: 10px;
+        margin-top: -10px;
+    }
 }
 
 /* ccelular m */
